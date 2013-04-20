@@ -18,7 +18,9 @@ Therefore you can send 3 MIDI ON messages to form a chord, and 3 floppydrives wi
 
 --DESCRIPTION OF PREPROCESSOR FLAGS--
 
-
+USE_ALL: TRUE if you want to use all 8. FALSE if you want to use only one.
+DEBUG: SEND SERIAL DEBUGS ON NOTE ON AND NOTE OFF.
+ACTIVE_SENSE: TRUE if your MIDI device sends Active Sense (read: Annoying) signals to verify the connection.
 
 
 
